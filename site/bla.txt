@@ -1,0 +1,10 @@
+create table usuarios(
+    id int primary key auto_increment,
+    data_criacao timestamp,
+    nome_usuario varchar(235) not null,
+    senha_usuario varchar(235) not null,
+    log varchar(235) not null
+);
+
+
+insert into novos_usuarios(nome_usuario,senha_usuario,log) VALUES("paulo","212345","usuario criado")
